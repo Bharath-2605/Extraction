@@ -1,0 +1,25 @@
+name: url-extractor
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyter
+  - notebook
+  - pandas
+  - openpyxl
+  - requests
+  - pip
+  - pip:
+      - fastapi>=0.115.0
+      - uvicorn>=0.32.0
+      - python-multipart>=0.0.12
+      - xlrd>=2.0.1
+      - ipywidgets>=8.1.0
+      - pymupdf>=1.24.0
+      - numpy>=1.26.0
+      - pillow>=10.4.0
+      - opencv-python-headless>=4.10.0
+      - onnxruntime>=1.19.0
+      - rapidocr>=1.4.0
+      - ocrmac>=1.0.0; sys_platform == "darwin"
